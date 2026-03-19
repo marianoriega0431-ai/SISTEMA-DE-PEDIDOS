@@ -1,82 +1,60 @@
-# Customer Order Management System
+Sistema de pedidos
 
-## Project Description
-This project is a simple **Customer Order Management System** developed in Python.
+Description
+
+This project is a simple customer order management system developed in Python.
+
+It was created as part of my learning process at Riwi, where I am currently starting to learn programming.
+
+The system allows managing basic information about clients, products, and orders in an organized way.
+
+Team
+
+This project was developed by:
+
+- María Noriega
+- Carlos Castro
+
+What the program does
 
 The program allows the user to:
-- register clients
-- register products
-- create orders
-- view registered orders
-- calculate daily income
-- generate a final report
 
-This system was created to organize customer orders in a structured way and make sales management easier during the working day.
+- Register clients (ID, name, email)
+- Register products (ID, name, price)
+- Create orders by selecting a client and a product
+- Show all registered orders
+- Calculate total income of the day
+- Generate a final report
 
-## Problem Context
-In many small businesses, orders are often recorded manually. This can cause problems such as:
-- lack of control over registered clients
-- difficulty identifying sold products
-- manual calculation errors
-- no clear daily sales summary
+How it works
 
-This program solves that problem by storing the information in dictionaries and tuples and calculating totals automatically.
+The system uses:
 
-## Main Features
+- Dictionaries to store clients, products, and orders
+- Tuples to represent products (id, name, price)
 
-### 1. Register Clients
-The system allows the user to save client information:
-- client ID
-- client name
-- client email
+Each order is created by linking a client with a product and a quantity.
 
-### 2. Register Products
-The system allows the user to save product information using tuples:
-- product ID
-- product name
-- unit price
+The total of each order is calculated automatically:
 
-### 3. Create Orders
-The user can create an order by linking:
-- a client
-- a product
-- a quantity
+total = unit_price * quantity
 
-The system calculates the total automatically:
+Challenges
 
-`total = unit_price * quantity`
+One of the most challenging parts for me was calculating the total of each order and understanding how to connect the product price with the quantity.
 
-### 4. View Orders
-The program displays all registered orders with:
-- order ID
-- client name
-- product name
-- quantity
-- total
+This helped me better understand how to work with dictionaries and how to access data inside them.
 
-### 5. Calculate Daily Income
-The system adds the total value of all orders and shows the daily income.
+How to run the program
 
-### 6. Generate Final Report
-The final report includes:
-- total number of orders
-- total income
-- orders grouped by client
-- products sold during the day
+1. Open the terminal
+2. Make sure Python is installed
+3. Run the file:
 
-## Data Structures Used
+python nombre_del_archivo.py
 
-### Dictionary
-Dictionaries were used to store:
-- clients
-- products
-- orders
+4. Use the menu options to interact with the system
 
-They make it easier to access information using an ID as a key.
+Final note
 
-### Tuple
-Tuples were used to represent products because product data should remain structured and fixed.
-
-Example:
-```python
-(product_id, product_name, unit_price)
+This project was made for learning purposes and helped me practice basic concepts such as functions, dictionaries, and program structure.
