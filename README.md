@@ -1,22 +1,18 @@
-Sistema de pedidos
+# Ordering system
 
-Description
+# Description
 
-This project is a simple customer order management system developed in Python.
-
+##This project is a simple customer order management system developed in Python.
 It was created as part of my learning process at Riwi, where I am currently starting to learn programming.
-
 The system allows managing basic information about clients, products, and orders in an organized way.
 
-Team
-
+## Team
 This project was developed by:
 
 - María Noriega
 - Carlos Castro
 
-What the program does
-
+## What the program does
 The program allows the user to:
 
 - Register clients (ID, name, email)
@@ -26,7 +22,7 @@ The program allows the user to:
 - Calculate total income of the day
 - Generate a final report
 
-How it works
+## How it works
 
 The system uses:
 
@@ -36,25 +32,20 @@ The system uses:
 Each order is created by linking a client with a product and a quantity.
 
 The total of each order is calculated automatically:
-
 total = unit_price * quantity
 
-Challenges
+## Challenges
 
 One of the most challenging parts for me was calculating the total of each order and understanding how to connect the product price with the quantity.
-
 This helped me better understand how to work with dictionaries and how to access data inside them.
 
-How to run the program
+## How to run the program
 
 1. Open the terminal
 2. Make sure Python is installed
 3. Run the file:
-
-python nombre_del_archivo.py
-
+sistema de pedidos.py
 4. Use the menu options to interact with the system
 
-Final note
-
+## Final note
 This project was made for learning purposes and helped me practice basic concepts such as functions, dictionaries, and program structure.
