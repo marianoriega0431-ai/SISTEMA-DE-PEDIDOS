@@ -32,7 +32,7 @@ Each function has a specific responsibility inside the system.
 
 ## Instructions to Run the Program
 1. Make sure Python 3 is installed on your computer.
-2. Save the file as `sistema_pedidos_completo_espanol.py` or any preferred name.
+2. Save the file as `sistema_pedido.py` or any preferred name.
 3. Open a terminal in the folder where the file is located.
 4. Run the program with the following command:
 
