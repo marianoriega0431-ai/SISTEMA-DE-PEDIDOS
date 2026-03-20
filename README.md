@@ -37,7 +37,7 @@ Each function has a specific responsibility inside the system.
 4. Run the program with the following command:
 
 ```bash
-python sistema_pedidos_completo_espanol.py
+sistema_pedido.py
 ```
 
 5. Use the menu options displayed in the terminal:
